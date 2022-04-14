@@ -1,0 +1,197 @@
+  body {
+    font-family: "Comic Sans Ms";
+  }  
+  li {
+    list-style: none;
+  }
+  .header {
+    background-color:white;
+    color: black;
+    height: 90px;
+  }
+  .header-logo {
+    float: left;
+    font-size: 25px;
+    padding: 20px 40px;
+  }
+  .header-list li {
+    float: right;
+    padding: 30px;
+  }
+  .header-list li:hover{
+    background-color: gray;
+  }
+  .header-list ul {
+    list-style: none;
+    width: 97%;
+  }
+  .header-list ul li {
+    display: block;
+    text-decoration: none;
+  }
+  .top-wrapper{
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: url(./mie\ rebus.jpg);
+    background-size: cover;
+    height: 700px;
+  }
+  .top-wrapper h1 {
+    color:#fff;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  .top-wrapper h2 {
+    color:#fff;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+  }
+  .lesson-wrapper {
+    height: 700px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+    text-align:center;
+  }
+  .lesson-icon img {
+    width: 350px;
+  }
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  .heading h2 {
+    font-weight: normal;
+  }
+  .lesson {
+    float: left;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .lesson-icon {
+    position: relative;
+  }
+  .txt-contents {
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:15px;
+    color:#b3aeb5;
+  }
+  .container {
+    max-width: 1180px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+
+  .heading h3 {
+    font-weight: normal;
+  }
+
+  .message {
+    padding: 15px 40px;
+    background-color: #a7a5c6;
+    cursor: pointer;
+    box-shadow: 0 7px #1a2779;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  span {
+      font-weight: bold;
+  }
+
+  .footer-animation {
+    margin: 20px 353px;
+    height: 100px;
+    width: 40%;
+    background-color: #dad0df;
+    opacity: 1;
+}
+
+  .footer-animation h3 {
+      text-align: center;
+      color: rgb(22, 23, 23);
+      font-weight: normal;
+      padding: 7px 20px;
+  }
+
+  .footer-span img{
+    width: 40px;
+    margin: 0px 10px;
+    opacity: 0.7;
+  }
+
+  .footer-span img:hover {
+    width: 43px;
+    margin: 0px 10px;
+    opacity: 1;
+  }
+
+  footer{
+    background: #111;
+    height: 90px;
+    width: 100vw;
+    font-family: “Comic Sans MS”, cursive, sans-serif;
+    padding-top: 10px;
+    color: #fff;
+  }
+
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-content h3{
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 5px;
+  }
+
+  .footer-content p{
+    margin: 5px;
+    line-height: 10px;
+    font-size: 10px;
+  }
+
+  .footer-bottom {
+    background: #000;
+    height: 10px;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-bottom p{
+    font-size: 9px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+  }
