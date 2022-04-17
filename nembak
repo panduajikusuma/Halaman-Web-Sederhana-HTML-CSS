@@ -1,0 +1,20 @@
+<html>
+<body>
+<hl>Hai Cantik!,/hl>;
+<img src="https://c.tenor.com/Z8ezUHZzcLoAAAAC/love.gif"/>;
+<hl>Maukah Kamu Menjadi Pacarku?</hl>;
+<button id="btn_mau onclick="alart('I Love You')'>mau/button;
+<button id="btn_gamau onclick="gamau(this)"style="position;
+gamau
+</button>
+</body>
+<script>
+function gamau(id){
+var mau = document.getElementById("btn_mau");
+var i =math.floor(math.random() ' 300) + 1;
+var j =math.floor(math.random() ' 100) + mau.offsetTop;
+id.style.left = i + "px";
+id.style.top = j + "px";
+}
+</script>
+</html>
